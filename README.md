@@ -24,26 +24,26 @@ No frameworks or special libraries are used in accordance with course requiremen
 # Files Overview
 Key components of the website that hold HTML code are:
 
-1. index.php
-2. home.php
-3. cards.php
-4. study.php
+1. [index.php](index.php)
+2. [home.php](home.php)
+3. [cards.php](cards.php)
+4. [study.php](study.php)
 
 And their corresponding JS scripts:
 
-1. index-script.js
-2. home-script.js
-3. cards-script.js
-4. study-script.js
+1. [index-script.js](index-script.js)
+2. [home-script.js](home-script.js)
+3. [cards-script.js](cards-script.js)
+4. [study-script.js](study-script.js)
 
-Additionally, all HTML-holding files use script.js.  
-Website structure is styled using style.css plus by appropriate JS scripts. Server-side logic is handled by the following files:
+Additionally, all HTML-holding files use [script.js](script.js).  
+Website structure is styled using [style.css](style.css) plus by appropriate JS scripts. Server-side logic is handled by the following files:
 
-1. config.php - database access credentials
-2. tasks.php - DB connection functions, majority of functions handling POST
-3. availability-check.php - script to handle AJAX for username and email availability
-4. card-for-edit.php - script to handle AJAX XMLHttpRequest for prefilling ediCardForm
-5. delete.php - script to delete a specific card from a database
+1. [config.php](config.php) - database access credentials
+2. [tasks.php](tasks.php) - DB connection functions, majority of functions handling POST
+3. [availability-check.php](availability-check.php) - script to handle AJAX for username and email availability
+4. [card-for-edit.php](card-for-edit.php) - script to handle AJAX XMLHttpRequest for prefilling ediCardForm
+5. [delete.php](delete.php) - script to delete a specific card from a database
 
 Additional files include:
 1.  intro-background.jpg - [0,689 MB] used for index background
