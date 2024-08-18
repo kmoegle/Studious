@@ -39,7 +39,7 @@ And their corresponding JS scripts:
 Additionally, all HTML-holding files use [script.js](script.js).  
 Website structure is styled using [style.css](style.css) plus by appropriate JS scripts. Server-side logic is handled by the following files:
 
-1. [config.php](config.php) - database access credentials
+1. [config.dist.php](config.dist.php) - database access credentials --> copy to `config.php` to apply the settings
 2. [tasks.php](tasks.php) - DB connection functions, majority of functions handling POST
 3. [availability-check.php](availability-check.php) - script to handle AJAX for username and email availability
 4. [card-for-edit.php](card-for-edit.php) - script to handle AJAX XMLHttpRequest for prefilling ediCardForm
